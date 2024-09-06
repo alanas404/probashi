@@ -46,15 +46,15 @@ const Customer = () => {
                 </div>
             </div>
             <Swiper
-                onSwiper={(swiper) => (swiperRef.current = swiper)}
+                // onSwiper={(swiper) => (swiperRef.current = swiper)}
                 onSlideChange={handleSlideChange}
                 slidesPerView={2}
                 spaceBetween={30}
                 loop={true}
-                // autoplay={{
-                //     delay: 2000,  // Delay between automatic slide transitions (in milliseconds)
-                //     disableOnInteraction: false,  // Keep autoplay even after interaction
-                //   }}
+                autoplay={{
+                    delay: 2000,  // Delay between automatic slide transitions (in milliseconds)
+                    disableOnInteraction: false,  // Keep autoplay even after interaction
+                  }}
                 className='!pb-[34px]'
              modules={[Navigation, Pagination, Scrollbar, A11y,Autoplay]}
             >
