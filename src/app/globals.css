@@ -2,26 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+/* globals.css */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&family=Barlow:wght@400;500;600;700&display=swap'); */
+
+.roboto {
+  font-family: var(--font-roboto);
+  /* Apply Roboto globally */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.barlow {
+  font-family: var(--font-barlow)
+    /* Apply Barlow for headers or other specific elements */
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* .swiper-wrapper{
+  border:1px solid 
+} */
+ .newspaper-slider .swiper-wrapper {
+  padding-bottom: 40px !important;
+} 
+.newspaper-slider .swiper-pagination{
+  bottom:0 !important;
+}
+.newspaper-slider .swiper-pagination-bullet{
+  background-color: #7AC19F !important;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.newspaper-slider .swiper-pagination-bullet-active{
+  width: 40px !important;
+  height: 8px !important;
+  border-radius: 32px !important;
+  background-color: #187E7D !important;
 }
