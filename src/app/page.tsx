@@ -1,8 +1,11 @@
-import Image from "next/image";
 import Newspaper from "./components/newspaper/Newspaper";
+import Blog from "./components/blogs/Blog";
 
 export default function Home() {
   return (
-    <Newspaper/>
+    <div>
+      <Newspaper/>
+      <Blog/>
+    </div>
   );
 }

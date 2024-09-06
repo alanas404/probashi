@@ -17,7 +17,7 @@ const Newspaper = () => {
     return (
         <div className='px-4 md:px-[135px] py-[72px] '>
             <div className='flex  justify-between mb-[15px] md:mb-10'>
-                <h2 className='barlow font-semibold text-2xl md:text-[32px] leading-[28.8px] md:leading-[38.4px]'>Newspaper Making Headlines</h2>
+                <h2 className='barlow font-semibold text-2xl md:text-[32px] text-[#0F172A] leading-[28.8px] md:leading-[38.4px]'>Newspaper Making Headlines</h2>
                 <a className='hidden md:flex gap-2 items-center' href="">
                     <p className='barlow text-black text-xl font-medium leading-[24px]'>View all</p>
                     <Image src="/newspaper/green_arrow.svg" width={24} height={24} alt='' />
