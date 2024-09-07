@@ -46,4 +46,16 @@
   background-image: url('/customers/arrow.svg');
   background-repeat: no-repeat;
 } */
+/* Inside your global CSS file (e.g., styles/globals.css or styles.css) */
+.transparent-scrollbar::-webkit-scrollbar {
+  width: 10px; /* Adjust the width of the scrollbar */
+}
+
+.transparent-scrollbar::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Make scrollbar thumb transparent */
+}
+
+.transparent-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent; /* Make scrollbar track transparent */
+}
 
