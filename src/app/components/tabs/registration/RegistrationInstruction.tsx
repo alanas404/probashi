@@ -20,7 +20,7 @@ const RegistrationInstruction = () => {
         }
     ]
     return (
-        <div className='px-4 py-5 md:pt-6 md:px-6 md:pb-[43px] rounded-xl shadow-lg md:w-1/2 order-2 md:order-1'>
+        <div className='px-4 py-5 md:pt-6 md:px-6 md:pb-[43px] rounded-xl shadow-lg md:w-[470px] order-2 md:order-1'>
             <h2 className='barlow font-semibold text-lg md:text-2xl leading-[21.6px] md:leading-[28.8px] text-[#0F172A] pb-2 md:pb-3 border-b border-b-[#E2E8F0] mb-1  md:mb-2'>Registration Instruction</h2>
             <div> 
                 {
