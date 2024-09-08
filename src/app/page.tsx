@@ -6,10 +6,10 @@ import Tabs from "./components/tabs/Tabs";
 export default function Home() {
   return (
     <div>
-      <Newspaper/>
+      {/* <Newspaper/> */}
       <Tabs/>
-      <Customer/>
-      <Blog/>
+      {/* <Customer/>
+      <Blog/> */}
   
  
     </div>

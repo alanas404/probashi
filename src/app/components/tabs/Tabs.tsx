@@ -5,6 +5,7 @@ import { useState } from 'react';
 import Government from './Government';
 import Bmet from './Bmet';
 import Expatriate from './Expatriate';
+import Registration from './registration/Registration';
 
 const Label = () => {
     return <div className='flex items-center gap-2 md:gap-3 text-left mr-6 md:mr-0'>
@@ -15,7 +16,7 @@ const Label = () => {
 }
 function Tabs() {
     const [selectedIndex, setSelectedIndex] = useState(0);
-    const tabs = [0, 1, 2, 3, 4];
+    const tabs = [0, 1, 2, 3, 4,5];
     console.log(selectedIndex);
 
     return (
@@ -27,11 +28,9 @@ function Tabs() {
                     }
                 </TabList>
                 <TabPanels >
-                    <TabPanel><Expatriate/></TabPanel>
-                    <TabPanel><Bmet /></TabPanel>
-                    <TabPanel><Government /></TabPanel>
-                    <TabPanel>Content 4</TabPanel>
-                    <TabPanel>Content 5</TabPanel>
+                    <TabPanel>
+                        <Registration/>
+                    </TabPanel>
                 </TabPanels>
             </TabGroup>
         </div>
