@@ -85,3 +85,20 @@ input[type="radio"]:checked::before {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.ami-probashi-arrow::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top:-11px;
+  left: 30px;
+  transform:rotate(45deg);
+  border-left:1px;
+  border-top:1px;
+  border-style: solid;
+  border-color: #187E7D;
+  border-top-left-radius: 5px;
+  
+}
