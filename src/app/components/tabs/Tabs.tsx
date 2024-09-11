@@ -10,8 +10,7 @@ import Registration from './registration/Registration';
 const Label = () => {
     return <div className='flex items-center gap-2 md:gap-3 text-left mr-6 md:mr-0'>
         <Image className='w-[42px] md:w-[56px] h-[42px] md:h-[56px]' src="/tabs/tab1.svg" width={56} height={56} alt="" />
-        <p className='barlow font-medium text-base  md:text-[22px] leading-[19.2px] md:leading-[26.4px]'>Government
-            Services</p>
+        <p className='barlow font-medium text-base  md:text-[22px] leading-[19.2px] md:leading-[26.4px]'>সরকারী সেবা</p>
     </div>
 }
 function Tabs() {
