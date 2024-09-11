@@ -4,7 +4,7 @@ import {Roboto} from "next/font/google";
 import "./globals.css";
 
 const barlow = Barlow({subsets:['latin'],weight:['600'],variable:'--font-barlow'});
-const roboto = Roboto({subsets:['latin'],weight:['400'],variable:'--font-roboto'});
+const roboto = Roboto({subsets:['latin'],weight:['400','500'],variable:'--font-roboto'});
 
 
 export const metadata: Metadata = {
