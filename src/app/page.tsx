@@ -1,3 +1,4 @@
+"use client"
 import Newspaper from "./components/newspaper/Newspaper";
 import Blog from "./components/blogs/Blog";
 import Customer from "./components/customers/Customer";
@@ -9,6 +10,9 @@ import AmiprobashiArrow from "./components/downloads/AmiprobashiArrow";
 import Image from "next/image";
 import GoogleMap from "./GoogleMap";
 import RefundPolicy from "./components/RefundPolicy";
+import TermsAndConditions from "./components/TermsAndConditions";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import CountUp from 'react-countup';
 
 /* Frame 1321315498 */
 
@@ -45,10 +49,19 @@ export default function Home() {
       bg: "bg-[#1E2D41] py-2.5 pl-[15px]",
     }
   ]
+
+  const englishToBanglaDigits = (num: number) => {
+    const banglaDigits = ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯'];
+    return num
+      .toString()
+      .split('')
+      .map(digit => (/\d/.test(digit) ? banglaDigits[parseInt(digit)] : digit))
+      .join('');
+  };
   return (
     <div>
 
-      {/* <div className="m-5">
+      <div className="m-5">
 
         <div className="flex gap-5">
         {
@@ -61,11 +74,21 @@ export default function Home() {
         }
         </div>
 
-      </div> */}
+      </div>
 
+      <CountUp
+  start={0}
+  end={100}
+  duration={2.75}
+  formattingFn={englishToBanglaDigits}
 
+>
+  
+</CountUp>
    <div className="md:w-[1170px] mx-auto">
-          <RefundPolicy/>
+          {/* <RefundPolicy/> */}
+          {/* <TermsAndConditions/> */}
+          <PrivacyPolicy/>
    </div>
 
 
