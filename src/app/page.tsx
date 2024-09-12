@@ -7,6 +7,7 @@ import HelpDesk from "./components/downloads/HelpDesk";
 import AfterMission from "./components/downloads/AfterMission";
 import AmiprobashiArrow from "./components/downloads/AmiprobashiArrow";
 import Image from "next/image";
+import GoogleMap from "./GoogleMap";
 
 /* Frame 1321315498 */
 
@@ -46,20 +47,20 @@ export default function Home() {
   return (
     <div>
 
-      <div className="m-5">
+      {/* <div className="m-5">
 
         <div className="flex gap-5">
         {
           weare.map(item =>   <div className="relative">
             <Image className="w-[150px] h-[206px] md:w-[218px] md:h-[300px]" src={item.image} width={218} height={300} alt="" />
             <div className={`${item.bg}  w-full rounded-tr-[30px] absolute bottom-[19.58px] md:bottom-[29px]`}>
-              <p className="barlow font-medium text-sm md:text-2xl  text-white">{item.title}</p>
+              <p className="barlow font-normal text-sm md:text-2xl  text-white">{item.title}</p>
             </div>
           </div>)
         }
         </div>
 
-      </div>
+      </div> */}
 
 
 
@@ -68,7 +69,7 @@ export default function Home() {
 
 
 
-
+<GoogleMap/>
 
 
 

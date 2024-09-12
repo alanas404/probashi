@@ -1,0 +1,49 @@
+{
+    "weare": {
+        "title": "Who we are",
+        "text1": "Ami Probashi is a comprehensive digital platform designed to bring transparency, reduce migration costs, and speed up migration processes through convenient online services available right at your doorstep.",
+        "text2": "The platform connects aspiring migrant workers with legitimate employers, streamlining each step of the migration journey through online processes. By eliminating middlemen, Ami Probashi allows for journey steps to be completed by aspiring migrants themselves",
+        "cardOne": "Zero cost to Government",
+        "cardTwo": "Democratized migration ",
+        "cardThree": "Safeguarding human trafficking",
+        "cardFour": "Reduced migration time and cost ",
+        "cardFive": "Eliminating Middlemen"
+    },
+    "partnership": {
+        "title": "Ami Probashi Partnership",
+        "tabs": {
+            "tabOne": {
+                "name": "Ministry of Expatriate Welfare and Overseas Employment",
+                "text1": "Ami Probashi collaborates closely with the Ministry of Bangladesh to ensure streamlined, safe and orderly migration. This partnership facilitates streamlined processes for overseas job placements, ensuring that candidates meet all necessary regulations and standards. Ami Probashi has assisted the Ministry by providing in-depth data analytics, which has supported policy reforms and better resource allocation. Our collaboration has democratized the migration process, providing autonomy and transparency to migrant workers and employers alike. This collaboration aims to boost the overall employment rate and economic growth by enabling more Bangladeshi citizens to find work abroad."
+            },
+            "tabTwo": {
+                "name": "ICT Division",
+                "text1": "Partnering with the ICT Division, Ami Probashi leverages advanced technological solutions to improve its service delivery. This collaboration ensures the digital registration process is efficient and secure, providing real-time updates to users. The ICT Division supports the development and maintenance of the Ami Probashi platform, integrating features like QR-code verification and online tracking. This partnership helps in managing secure data systems, safeguarding personal information, and enhancing user experience. By utilizing cutting-edge technology, the ICT Division and Ami Probashi can offer a seamless and user-friendly service to aspiring migrants."
+            },
+            "tabThree": {
+                "name": "BRAC",
+                "text1": "Ami Probashi’s partnership with BRAC focuses on providing comprehensive training programs and support services to aspiring and returning migrants alike. BRAC’s extensive experience in educational and vocational training ensures high-quality, relevant courses are available through the Ami Probashi platform. Together, they offer a range of skill development opportunities, from technical training to language courses, all aimed at improving employability. This collaboration also involves joint initiatives to support returnee migrants, helping them reintegrate into the local economy. The combined efforts of Ami Probashi and BRAC ensure that individuals are well-prepared for overseas employment, enhancing their chances of success."
+            },
+            "tabFour": {
+                "name": "BMET",
+                "text1": "The partnership with BMET is fundamental to Ami Probashi’s mission, as it has enabled us to digitalise crucial processes like migrant database registration and Emigration clearance. BMET provides regulatory oversight, ensuring that all candidates and recruiting agencies comply with national and international standards. This collaboration allows for the efficient government compliance and data verification to ensure legitimate migration. BMET’s support ensures that the emigration clearance process is transparent, reducing wait times and enhancing efficiency. Through this partnership, Ami Probashi helps candidates navigate the regulatory landscape, making their journey to overseas employment smoother and more reliable."
+            }
+        }
+    },
+    "bannerOne": {
+        "title": "Empowering Migrant workers",
+        "subTitle": "Bridging the gap between aspiring migrant workers, local and foreign recruiters, and government stakeholders",
+        "qrBtn": "Download QR-Code Clearance Card",
+        "verifyBtn": "Verify BMET Smart Card"
+    },
+    "bannerTwo": {
+        "title": "Recruitment Re-imagined",
+        "subTitle": "Recruit top talent from Bangladesh with our all-in-one platform",
+        "loginBtn": "Login/Sign up to recruitment portal"
+    },
+    "bannerThree": {
+        "title": "Integrated Government Services",
+        "subTitle": "Effortless Emigration Clearance, Pre-Departure Orientation, and BMET Registration at your fingertips.",
+        "requestBtn": "Request for  Portal"
+    }
+}
