@@ -8,6 +8,7 @@ import AfterMission from "./components/downloads/AfterMission";
 import AmiprobashiArrow from "./components/downloads/AmiprobashiArrow";
 import Image from "next/image";
 import GoogleMap from "./GoogleMap";
+import RefundPolicy from "./components/RefundPolicy";
 
 /* Frame 1321315498 */
 
@@ -63,13 +64,15 @@ export default function Home() {
       </div> */}
 
 
+   <div className="md:w-[1170px] mx-auto">
+          <RefundPolicy/>
+   </div>
 
 
 
 
 
-
-<GoogleMap/>
+{/* <GoogleMap/> */}
 
 
 
