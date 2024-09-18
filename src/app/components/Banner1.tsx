@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Banner1 = () => {
     return (
-        <div className="pt-6  banner1 flex flex-col justify-between">
+        <div className="pt-6 min-h-[758px]  banner1 flex flex-col justify-between">
             <div className='px-4'>
                 <div>
                     <h2 className='barlow font-semibold text-[26px] leading-[31.2px] text-white mb-1.5'>Empowering Migrant workers</h2>

@@ -2,15 +2,15 @@ import React from 'react';
 import "./Banner.css"
 import Image from 'next/image';
 
-const Banner2 = () => {
+const Banner3 = () => {
     return (
-        <div className="pt-[50px]   banner1 flex flex-col justify-between">
+        <div className="pt-[34px]   banner1 flex flex-col justify-between">
             <div className='px-4'>
                 <div>
-                    <h2 className='barlow font-semibold text-[26px] leading-[31.2px] text-white mb-1.5'>Recruitment Re-imagined </h2>
+                    <h2 className='barlow font-semibold text-[26px] leading-[31.2px] text-white mb-1.5'>Integrated Government Services</h2>
                     <p className='roboto font-normal text-sm text-white'>Effortless Emigration Clearance, Pre-Departure Orientation, and BMET Registration at your fingertips.</p>
                 </div>
-                <div className='flex justify-between mt-12'>
+                <div className='flex justify-between mt-8'>
                     <a href="#">
                         <Image src="/banner/app_store.svg" width={161} height={54} alt='' />
                     </a>
@@ -21,7 +21,7 @@ const Banner2 = () => {
                 <div className='mt-[22px]'>
                     <button className='flex items-center gap-2 bg-[#187E7D] w-full px-2.5 pt-1.5 pb-2 rounded-lg h-[54px] border border-white'>
                         <Image src="/banner/login.svg" width={32} height={32} alt='' />
-                        <p className='barlow font-semibold text-base leading-[19.2px] text-white'>Login / Sign Up to Recruitment Portal </p>
+                        <p className='barlow font-semibold text-base leading-[19.2px] text-white'>Login / Sign Up to Goverment Portal </p>
                     </button>
                 </div>
 
@@ -36,6 +36,5 @@ const Banner2 = () => {
     );
 };
 
-export default Banner2;
-
+export default Banner3;
 
